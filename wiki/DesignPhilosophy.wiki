@@ -24,4 +24,10 @@ There are a few caveats.  First of all, GATEWAY_URI must be a proper URI, and ch
 
 So, GVMyNumber simply subscribes to outgoing calls, checks for those triggered by Google Voice (using GATEWAY_PROVIDER_PACKAGE), and re-sets GATEWAY_URI to the google voice number configured instead of the random access number.  All-in-all, it's like 20 lines of code, and no hacking required.  I'm just using the standard Open Source android API to do everything.
 
-So, there you have it!  A nice simple dialer, integrated with Google's fantastic Google Voice app for Android.  Enjoy!
+So, there you have it!  A nice simple dialer, integrated with Google's fantastic Google Voice app for Android.
+
+==Philosophy==
+
+Simple.  Free.  Open Source.  What else can I say?
+
+There are a lot of big and/or expensive apps out there.  I hope this app encourages other people to develop free and open source applications for Android.  Or, heck, steal this code and make something even cooler out of it.  Just respect the GPL and respect Google -- they're the ones who made all this possible.
