@@ -1,0 +1,28 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<com.everysoft.gvmynumber.preference.GVMyNumberDialogPreference
+		android:key="about" android:title="@string/about_title" android:src="@drawable/icon"
+		android:dialogTitle="@string/about_title" android:dialogMessage="@string/about_message"
+		android:dialogIcon="@drawable/icon" android:negativeButtonText="@null" />
+	<PreferenceScreen android:title="@string/settings_title">
+		<EditTextPreference android:key="gv_number"
+			android:title="@string/settings_gv_number" android:summary="@string/settings_gv_number_summary"
+			android:hint="@string/settings_gv_number_hint" android:singleLine="true" />
+		<EditTextPreference android:key="PIN"
+			android:title="@string/settings_pin" android:summary="@string/settings_pin_summary"
+			android:password="true" android:singleLine="true" />
+		<ListPreference android:key="pause" android:title="@string/settings_pause"
+			android:entries="@array/settings_pause_entries" android:summary="@string/settings_pause_summary"
+			android:entryValues="@array/settings_pause_entryvalues"
+			android:defaultValue="," />
+	</PreferenceScreen>
+	<com.everysoft.gvmynumber.preference.GVMyNumberDialogPreference
+		android:key="instructions" android:title="@string/instructions_title"
+		android:src="@drawable/icon" android:dialogTitle="@string/instructions_title"
+		android:dialogMessage="@string/instructions_message"
+		android:dialogIcon="@drawable/icon" android:negativeButtonText="@null" />
+	<com.everysoft.gvmynumber.preference.GVMyNumberDialogPreference
+		android:key="license" android:title="@string/license_title"
+		android:src="@drawable/icon" android:dialogTitle="@string/license_title"
+		android:dialogMessage="@string/license_message"
+		android:dialogIcon="@drawable/icon" android:negativeButtonText="@null" />
+</PreferenceScreen>
