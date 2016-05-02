@@ -1,0 +1,1 @@
+Android's Google Voice dialer uses a random access number for outgoing calls.  This free application makes it dial your own number.
